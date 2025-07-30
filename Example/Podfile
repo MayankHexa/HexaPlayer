@@ -1,6 +1,6 @@
-use_frameworks!
+use_frameworks! :linkage => :static
 
-platform :ios, '10.0'
+platform :ios, '14.0'
 
 target 'HexaPlayer_Example' do
   pod 'HexaPlayer', :path => '../'
