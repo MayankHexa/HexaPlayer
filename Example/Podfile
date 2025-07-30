@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HexaPlayer_Example' do
+  pod 'HexaPlayer', :path => '../'
+
+  target 'HexaPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

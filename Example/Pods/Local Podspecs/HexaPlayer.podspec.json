@@ -1,0 +1,22 @@
+{
+  "name": "HexaPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of HexaPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MayankHexa/HexaPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MayankHexa": "mayank@hexabrain.com"
+  },
+  "source": {
+    "git": "https://github.com/MayankHexa/HexaPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HexaPlayer/Classes/**/*"
+}

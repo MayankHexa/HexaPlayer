@@ -1,0 +1,16 @@
+PODS:
+  - HexaPlayer (0.1.0)
+
+DEPENDENCIES:
+  - HexaPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  HexaPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HexaPlayer: e73de872c59f39c279a4fc19190e653cfd2bf95b
+
+PODFILE CHECKSUM: 6dee03eacd8725ec6300484b03b0a57c333e77ca
+
+COCOAPODS: 1.16.2

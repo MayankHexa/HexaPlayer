@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7B558F74EC0D292E6716286015A9EB /* Pods-HexaPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC62385A00E619F2749F69848AA310F1 /* Pods-HexaPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D89286F5981507F3D4C11138C1CB200 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		474723D97BA682EFEEF7AD0420E2CEA1 /* Pods-HexaPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A300989EDCB2606DBC8638A4EC3D66 /* Pods-HexaPlayer_Example-dummy.m */; };
+		5783B1B4CD25003887572459064879E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		8AEAFF340DF7616D922593480D7690D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		9E8530E62BC37FDB90BD4BC78D3964A8 /* Pods-HexaPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 427589E704FCA8DD78263A833939D812 /* Pods-HexaPlayer_Tests-dummy.m */; };
+		ADCA43A25044F0E76FF80BB53AE2F285 /* Pods-HexaPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C63DC9A7DD8855A50DB9145BF8F3ECD /* Pods-HexaPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C10E4164A9ACD615BEAF4D8C00D8EFDA /* HexaPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73165E5983EDB3A1AC0FC3B98C4446C /* HexaPlayer-dummy.m */; };
+		F1BD255B3DEF2787A9A81B2E9FB233A1 /* HexaPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBA38556095A41404BBAEC1D8776B9F /* HexaPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE7C02B22E3A3E9F00BF47DB /* HexaPlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7C02B12E3A3E9F00BF47DB /* HexaPlayerConfig.swift */; };
+		FE7C02B62E3A3F3400BF47DB /* HexaPlayerPlatformSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7C02B52E3A3F3400BF47DB /* HexaPlayerPlatformSDK.swift */; };
+		FE7C02BC2E3A412000BF47DB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7C02BB2E3A412000BF47DB /* LoadingView.swift */; };
+		FE7C02BE2E3A414B00BF47DB /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE7C02BD2E3A414B00BF47DB /* LoadingView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87E859D4F7C849BBD5BB5A60F82B4EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0E5B8BFA2BF63A66FC8017B1E95611;
+			remoteInfo = "Pods-HexaPlayer_Example";
+		};
+		A5DF5B6BCA2D477BE8835F7211F1AE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F706E0A825BAB47567B2454A6B09BE94;
+			remoteInfo = HexaPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034A5A2D454D4485A284EAC94EADB5CE /* Pods-HexaPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HexaPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		05A300989EDCB2606DBC8638A4EC3D66 /* Pods-HexaPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HexaPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		0E694D54BE88A49C3385A8C9F8B7569F /* Pods-HexaPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HexaPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36C29BB5D0BB6E87468DB894E6EAEB18 /* HexaPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexaPlayer-prefix.pch"; sourceTree = "<group>"; };
+		381EB4CD513043828A83D49AAE591B45 /* HexaPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HexaPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		427589E704FCA8DD78263A833939D812 /* Pods-HexaPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HexaPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		4E1BBE837EC16CC38CC8B1B8382EA0DD /* HexaPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HexaPlayer-Info.plist"; sourceTree = "<group>"; };
+		4F87F2BF31F7EEDFE0F5D8C6295CBEBE /* Pods-HexaPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HexaPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5274DCEDBB60FB706245D28DC6A41735 /* HexaPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexaPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		547D0FD64A72DAC1B31DB028B4E827C7 /* Pods-HexaPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HexaPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		5EF3A975F7289BF2CA3835CB79809172 /* Pods-HexaPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HexaPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		651394B2307F060DA7C0C01D66BEB712 /* HexaPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexaPlayer.release.xcconfig; sourceTree = "<group>"; };
+		7A8BE2859347E7A85E57470CA21141AF /* Pods-HexaPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HexaPlayer_Example-Info.plist"; sourceTree = "<group>"; };
+		7D6387CFBB1E4202CAC123CBC7E4CC3D /* Pods_HexaPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HexaPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		807D85D299211A99FE74069B2934C9DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9C63DC9A7DD8855A50DB9145BF8F3ECD /* Pods-HexaPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HexaPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC0AD8C4FF71D2F4D7FC7623CDC80DB9 /* Pods-HexaPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HexaPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B28D086954B1E2E3FC91C8E78FC0D147 /* Pods_HexaPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HexaPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E52E546B63B75C9AB5551FBECD0817 /* HexaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexaPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AB8AE998438031C97AC1175791269A /* Pods-HexaPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HexaPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B72D16991F03A0CA2D43F92645BF65A2 /* HexaPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HexaPlayer.modulemap; sourceTree = "<group>"; };
+		C73165E5983EDB3A1AC0FC3B98C4446C /* HexaPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexaPlayer-dummy.m"; sourceTree = "<group>"; };
+		CDD8F99D5EBB098460F7282CBEAADA8C /* Pods-HexaPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HexaPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEBA38556095A41404BBAEC1D8776B9F /* HexaPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexaPlayer-umbrella.h"; sourceTree = "<group>"; };
+		D2448ED3A6760AEA896E0C1287D845B5 /* Pods-HexaPlayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HexaPlayer_Tests-Info.plist"; sourceTree = "<group>"; };
+		D94CC63DE99AAC7F2CA6EAFE1F1055CD /* Pods-HexaPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HexaPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E29CEA13F173E680D153BC80E866F07E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E7E800520B877E18B92355EB52691C7E /* Pods-HexaPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HexaPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F530343AD3CB9BBB76DE7C672EFD14D8 /* Pods-HexaPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HexaPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FC62385A00E619F2749F69848AA310F1 /* Pods-HexaPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HexaPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FE7C02B12E3A3E9F00BF47DB /* HexaPlayerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexaPlayerConfig.swift; path = HexaPlayer/Classes/HexaPlayerConfig.swift; sourceTree = "<group>"; };
+		FE7C02B52E3A3F3400BF47DB /* HexaPlayerPlatformSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexaPlayerPlatformSDK.swift; path = HexaPlayer/Classes/HexaPlayerPlatformSDK.swift; sourceTree = "<group>"; };
+		FE7C02BB2E3A412000BF47DB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = HexaPlayer/Classes/LoadingView.swift; sourceTree = "<group>"; };
+		FE7C02BD2E3A414B00BF47DB /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoadingView.xib; path = HexaPlayer/Classes/LoadingView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B899C0B3BC5777B28F57ABEBF120136E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEAFF340DF7616D922593480D7690D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49AE6316C7280B7B8A58F2501D159F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D89286F5981507F3D4C11138C1CB200 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA71E5F4295B1D29655B2803501896E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5783B1B4CD25003887572459064879E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213C5810CDA6984F8D5922D2441EA355 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				381EB4CD513043828A83D49AAE591B45 /* HexaPlayer.podspec */,
+				807D85D299211A99FE74069B2934C9DE /* LICENSE */,
+				E29CEA13F173E680D153BC80E866F07E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5665028310885C3C53C5716236A02D5C /* Pods-HexaPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				547D0FD64A72DAC1B31DB028B4E827C7 /* Pods-HexaPlayer_Tests.modulemap */,
+				0E694D54BE88A49C3385A8C9F8B7569F /* Pods-HexaPlayer_Tests-acknowledgements.markdown */,
+				D94CC63DE99AAC7F2CA6EAFE1F1055CD /* Pods-HexaPlayer_Tests-acknowledgements.plist */,
+				427589E704FCA8DD78263A833939D812 /* Pods-HexaPlayer_Tests-dummy.m */,
+				D2448ED3A6760AEA896E0C1287D845B5 /* Pods-HexaPlayer_Tests-Info.plist */,
+				FC62385A00E619F2749F69848AA310F1 /* Pods-HexaPlayer_Tests-umbrella.h */,
+				B4AB8AE998438031C97AC1175791269A /* Pods-HexaPlayer_Tests.debug.xcconfig */,
+				F530343AD3CB9BBB76DE7C672EFD14D8 /* Pods-HexaPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-HexaPlayer_Tests";
+			path = "Target Support Files/Pods-HexaPlayer_Tests";
+			sourceTree = "<group>";
+		};
+		8E8C2D9E35445D4603E496F70938A7E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E52E546B63B75C9AB5551FBECD0817 /* HexaPlayer.framework */,
+				7D6387CFBB1E4202CAC123CBC7E4CC3D /* Pods_HexaPlayer_Example.framework */,
+				B28D086954B1E2E3FC91C8E78FC0D147 /* Pods_HexaPlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919F7EC72179D8507A0E17825B7EA566 /* HexaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				213C5810CDA6984F8D5922D2441EA355 /* Pod */,
+				D415C5EF59B57935BB1ACD9CEBA9CA3C /* Support Files */,
+				FE7C02B12E3A3E9F00BF47DB /* HexaPlayerConfig.swift */,
+				FE7C02B52E3A3F3400BF47DB /* HexaPlayerPlatformSDK.swift */,
+				FE7C02BB2E3A412000BF47DB /* LoadingView.swift */,
+				FE7C02BD2E3A414B00BF47DB /* LoadingView.xib */,
+			);
+			name = HexaPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CD491A51C40BFF9FF4E440B182359C93 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				919F7EC72179D8507A0E17825B7EA566 /* HexaPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CD491A51C40BFF9FF4E440B182359C93 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8E8C2D9E35445D4603E496F70938A7E6 /* Products */,
+				FA6F483FA7DA77AA1A7DF61A33386F97 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2CE810252B4AD92250D30F7F334388E /* Pods-HexaPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3A975F7289BF2CA3835CB79809172 /* Pods-HexaPlayer_Example.modulemap */,
+				CDD8F99D5EBB098460F7282CBEAADA8C /* Pods-HexaPlayer_Example-acknowledgements.markdown */,
+				AC0AD8C4FF71D2F4D7FC7623CDC80DB9 /* Pods-HexaPlayer_Example-acknowledgements.plist */,
+				05A300989EDCB2606DBC8638A4EC3D66 /* Pods-HexaPlayer_Example-dummy.m */,
+				E7E800520B877E18B92355EB52691C7E /* Pods-HexaPlayer_Example-frameworks.sh */,
+				7A8BE2859347E7A85E57470CA21141AF /* Pods-HexaPlayer_Example-Info.plist */,
+				9C63DC9A7DD8855A50DB9145BF8F3ECD /* Pods-HexaPlayer_Example-umbrella.h */,
+				4F87F2BF31F7EEDFE0F5D8C6295CBEBE /* Pods-HexaPlayer_Example.debug.xcconfig */,
+				034A5A2D454D4485A284EAC94EADB5CE /* Pods-HexaPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-HexaPlayer_Example";
+			path = "Target Support Files/Pods-HexaPlayer_Example";
+			sourceTree = "<group>";
+		};
+		D415C5EF59B57935BB1ACD9CEBA9CA3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72D16991F03A0CA2D43F92645BF65A2 /* HexaPlayer.modulemap */,
+				C73165E5983EDB3A1AC0FC3B98C4446C /* HexaPlayer-dummy.m */,
+				4E1BBE837EC16CC38CC8B1B8382EA0DD /* HexaPlayer-Info.plist */,
+				36C29BB5D0BB6E87468DB894E6EAEB18 /* HexaPlayer-prefix.pch */,
+				CEBA38556095A41404BBAEC1D8776B9F /* HexaPlayer-umbrella.h */,
+				5274DCEDBB60FB706245D28DC6A41735 /* HexaPlayer.debug.xcconfig */,
+				651394B2307F060DA7C0C01D66BEB712 /* HexaPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HexaPlayer";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FA6F483FA7DA77AA1A7DF61A33386F97 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE810252B4AD92250D30F7F334388E /* Pods-HexaPlayer_Example */,
+				5665028310885C3C53C5716236A02D5C /* Pods-HexaPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08E7D3989EA53162017D5C901786BDF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCA43A25044F0E76FF80BB53AE2F285 /* Pods-HexaPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB03E0581675989B5B5196E296475B91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7B558F74EC0D292E6716286015A9EB /* Pods-HexaPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CEEB29C6D3B23AD5690D20BFE8151B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BD255B3DEF2787A9A81B2E9FB233A1 /* HexaPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		97ABD2688CB832F8C51C7F08F125B84D /* Pods-HexaPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481FFCE544D410B8AB07AA3EFBE0B056 /* Build configuration list for PBXNativeTarget "Pods-HexaPlayer_Tests" */;
+			buildPhases = (
+				DB03E0581675989B5B5196E296475B91 /* Headers */,
+				03020CC63EB582B116FBE164A14074BD /* Sources */,
+				B899C0B3BC5777B28F57ABEBF120136E /* Frameworks */,
+				2B68A296B24D5991570215481283E6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7E79E0B1525E14AF10D593BE3F8319 /* PBXTargetDependency */,
+			);
+			name = "Pods-HexaPlayer_Tests";
+			productName = Pods_HexaPlayer_Tests;
+			productReference = B28D086954B1E2E3FC91C8E78FC0D147 /* Pods_HexaPlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE0E5B8BFA2BF63A66FC8017B1E95611 /* Pods-HexaPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DE2E71CC0E8C51F7F266E0A521295C /* Build configuration list for PBXNativeTarget "Pods-HexaPlayer_Example" */;
+			buildPhases = (
+				08E7D3989EA53162017D5C901786BDF5 /* Headers */,
+				7B9A5472C698199C9DB1DA21AB475799 /* Sources */,
+				DA71E5F4295B1D29655B2803501896E2 /* Frameworks */,
+				72B25D3E5FE6F971BD9B3F5C1198C402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D378408069CC65053CD1BC55DD5D2201 /* PBXTargetDependency */,
+			);
+			name = "Pods-HexaPlayer_Example";
+			productName = Pods_HexaPlayer_Example;
+			productReference = 7D6387CFBB1E4202CAC123CBC7E4CC3D /* Pods_HexaPlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F706E0A825BAB47567B2454A6B09BE94 /* HexaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51CE8C9944B922F2DE66DDCEAD113C33 /* Build configuration list for PBXNativeTarget "HexaPlayer" */;
+			buildPhases = (
+				F1CEEB29C6D3B23AD5690D20BFE8151B /* Headers */,
+				197FA65A3D69E59796F40265E30ACA0A /* Sources */,
+				D49AE6316C7280B7B8A58F2501D159F2 /* Frameworks */,
+				BE9284B4567CE4E19AA3BB8344617C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexaPlayer;
+			productName = HexaPlayer;
+			productReference = B2E52E546B63B75C9AB5551FBECD0817 /* HexaPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8E8C2D9E35445D4603E496F70938A7E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F706E0A825BAB47567B2454A6B09BE94 /* HexaPlayer */,
+				BE0E5B8BFA2BF63A66FC8017B1E95611 /* Pods-HexaPlayer_Example */,
+				97ABD2688CB832F8C51C7F08F125B84D /* Pods-HexaPlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B68A296B24D5991570215481283E6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B25D3E5FE6F971BD9B3F5C1198C402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9284B4567CE4E19AA3BB8344617C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7C02BE2E3A414B00BF47DB /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03020CC63EB582B116FBE164A14074BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8530E62BC37FDB90BD4BC78D3964A8 /* Pods-HexaPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197FA65A3D69E59796F40265E30ACA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7C02B62E3A3F3400BF47DB /* HexaPlayerPlatformSDK.swift in Sources */,
+				FE7C02BC2E3A412000BF47DB /* LoadingView.swift in Sources */,
+				C10E4164A9ACD615BEAF4D8C00D8EFDA /* HexaPlayer-dummy.m in Sources */,
+				FE7C02B22E3A3E9F00BF47DB /* HexaPlayerConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9A5472C698199C9DB1DA21AB475799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474723D97BA682EFEEF7AD0420E2CEA1 /* Pods-HexaPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D7E79E0B1525E14AF10D593BE3F8319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HexaPlayer_Example";
+			target = BE0E5B8BFA2BF63A66FC8017B1E95611 /* Pods-HexaPlayer_Example */;
+			targetProxy = 87E859D4F7C849BBD5BB5A60F82B4EE0 /* PBXContainerItemProxy */;
+		};
+		D378408069CC65053CD1BC55DD5D2201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexaPlayer;
+			target = F706E0A825BAB47567B2454A6B09BE94 /* HexaPlayer */;
+			targetProxy = A5DF5B6BCA2D477BE8835F7211F1AE26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D56200947AF7E888FD3975A57C47045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651394B2307F060DA7C0C01D66BEB712 /* HexaPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/HexaPlayer/HexaPlayer-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/HexaPlayer/HexaPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HexaPlayer/HexaPlayer.modulemap";
+				PRODUCT_MODULE_NAME = HexaPlayer;
+				PRODUCT_NAME = HexaPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		245FB04F434A06211AEADC4AD73B9F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4AB8AE998438031C97AC1175791269A /* Pods-HexaPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HexaPlayer_Tests/Pods-HexaPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HexaPlayer_Tests/Pods-HexaPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC05D4A703B951EECB14B5E5139E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F87F2BF31F7EEDFE0F5D8C6295CBEBE /* Pods-HexaPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HexaPlayer_Example/Pods-HexaPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HexaPlayer_Example/Pods-HexaPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AAF33988E913D5D5F90C9910D316BCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F530343AD3CB9BBB76DE7C672EFD14D8 /* Pods-HexaPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HexaPlayer_Tests/Pods-HexaPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HexaPlayer_Tests/Pods-HexaPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B989DA1A4DA4362990F80575CEE23318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 034A5A2D454D4485A284EAC94EADB5CE /* Pods-HexaPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HexaPlayer_Example/Pods-HexaPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HexaPlayer_Example/Pods-HexaPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E847BC0FA7A4D6A282652E30B2233C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5274DCEDBB60FB706245D28DC6A41735 /* HexaPlayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/HexaPlayer/HexaPlayer-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/HexaPlayer/HexaPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HexaPlayer/HexaPlayer.modulemap";
+				PRODUCT_MODULE_NAME = HexaPlayer;
+				PRODUCT_NAME = HexaPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		481FFCE544D410B8AB07AA3EFBE0B056 /* Build configuration list for PBXNativeTarget "Pods-HexaPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245FB04F434A06211AEADC4AD73B9F3B /* Debug */,
+				AAF33988E913D5D5F90C9910D316BCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51CE8C9944B922F2DE66DDCEAD113C33 /* Build configuration list for PBXNativeTarget "HexaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E847BC0FA7A4D6A282652E30B2233C49 /* Debug */,
+				0D56200947AF7E888FD3975A57C47045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DE2E71CC0E8C51F7F266E0A521295C /* Build configuration list for PBXNativeTarget "Pods-HexaPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCC05D4A703B951EECB14B5E5139E04 /* Debug */,
+				B989DA1A4DA4362990F80575CEE23318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
