@@ -1,16 +1,27 @@
 PODS:
-  - HexaPlayer (0.1.0)
+  - google-cast-sdk (4.8.3):
+    - Protobuf (~> 3.13)
+  - HexaPlayer (0.1.0):
+    - google-cast-sdk (~> 4.8.3)
+  - Protobuf (3.29.5)
 
 DEPENDENCIES:
   - HexaPlayer (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - google-cast-sdk
+    - Protobuf
 
 EXTERNAL SOURCES:
   HexaPlayer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HexaPlayer: e73de872c59f39c279a4fc19190e653cfd2bf95b
+  google-cast-sdk: 1fb6724e94cc5ff23b359176e0cf6360586bb97a
+  HexaPlayer: 63dd9f0900e161706d415ca4e8602bfce4e8de2f
+  Protobuf: 164aea2ae380c3951abdc3e195220c01d17400e0
 
-PODFILE CHECKSUM: 6dee03eacd8725ec6300484b03b0a57c333e77ca
+PODFILE CHECKSUM: d78d20f2082bee1d9cfddc1d0eecc258b5fefc46
 
 COCOAPODS: 1.16.2

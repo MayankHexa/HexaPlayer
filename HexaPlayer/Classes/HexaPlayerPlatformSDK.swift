@@ -15,13 +15,22 @@ public class HexaPlayerPlatformSDK: UIViewController {
     
     public convenience init() {
         self.init(imageURL: nil)
-        print("Init with MPPlayer SDK \(self.getVersion()) version.")
-        let bundle = Bundle(for: HexaPlayerPlatformSDK.self)
-        if let loadingView = bundle.loadNibNamed(String(describing: LoadingView.self), owner: nil, options: nil)?.first as? LoadingView {
-            self.loadingView = loadingView
-            self.loadingView?.frame = self.view.bounds
-            self.loadingView?.activityIndicator.startAnimating()
-            self.view.addSubview(self.loadingView!)
+        print("Init with HexaPlayer SDK \(self.getVersion()) version.")
+        
+        let frameworkBundle = Bundle(for: HexaPlayerPlatformSDK.self)
+        if let resourceBundleURL = frameworkBundle.url(forResource: "HexaPlayer", withExtension: "bundle"),
+           let resourceBundle = Bundle(url: resourceBundleURL) {
+            
+            if let loadingView = resourceBundle.loadNibNamed("LoadingView", owner: nil, options: nil)?.first as? LoadingView {
+                self.loadingView = loadingView
+                self.loadingView?.frame = self.view.bounds
+                self.loadingView?.activityIndicator.startAnimating()
+                self.view.addSubview(self.loadingView!)
+            } else {
+                assertionFailure("Could not load LoadingView from resource bundle")
+            }
+        } else {
+            assertionFailure("Could not locate resource bundle")
         }
     }
     
