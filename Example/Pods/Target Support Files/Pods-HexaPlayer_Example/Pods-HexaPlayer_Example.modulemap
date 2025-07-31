@@ -1,4 +1,4 @@
-framework module Pods_HexaPlayer_Example {
+module Pods_HexaPlayer_Example {
   umbrella header "Pods-HexaPlayer_Example-umbrella.h"
 
   export *

@@ -1,15 +1,17 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HexaPlayer" "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf" "${PODS_ROOT}/google-cast-sdk" "${PODS_XCFRAMEWORKS_BUILD_DIR}/google-cast-sdk"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/google-cast-sdk" "${PODS_XCFRAMEWORKS_BUILD_DIR}/google-cast-sdk"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HexaPlayer/HexaPlayer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf.framework/Headers"
-LIBRARY_SEARCH_PATHS = $(inherited) "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
-OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -framework "AVFoundation" -framework "AVKit" -framework "AVRouting" -framework "Accelerate" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreText" -framework "Foundation" -framework "GoogleCast" -framework "HexaPlayer" -framework "MediaAccessibility" -framework "MediaPlayer" -framework "Network" -framework "Protobuf" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Protobuf"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HexaPlayer" "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf" "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/HexaPlayer/HexaPlayer.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"HexaPlayer" -l"Protobuf" -l"c++" -framework "AVFoundation" -framework "AVKit" -framework "AVRouting" -framework "Accelerate" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreText" -framework "Foundation" -framework "GoogleCast" -framework "MediaAccessibility" -framework "MediaPlayer" -framework "Network" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
 OTHER_MODULE_VERIFIER_FLAGS = $(inherited) "-F${PODS_CONFIGURATION_BUILD_DIR}/HexaPlayer" "-F${PODS_CONFIGURATION_BUILD_DIR}/Protobuf" "-F${PODS_CONFIGURATION_BUILD_DIR}/google-cast-sdk"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/HexaPlayer/HexaPlayer.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
 PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HexaPlayer" "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf"
 USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

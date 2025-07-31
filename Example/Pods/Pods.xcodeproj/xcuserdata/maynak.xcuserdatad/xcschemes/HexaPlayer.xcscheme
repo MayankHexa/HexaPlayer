@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F706E0A825BAB47567B2454A6B09BE94"
-               BuildableName = "HexaPlayer.framework"
+               BuildableName = "libHexaPlayer.a"
                BlueprintName = "HexaPlayer"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

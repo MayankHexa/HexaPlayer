@@ -1,4 +1,4 @@
-framework module HexaPlayer {
+module HexaPlayer {
   umbrella header "HexaPlayer-umbrella.h"
 
   export *

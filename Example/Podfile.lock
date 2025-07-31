@@ -1,7 +1,7 @@
 PODS:
   - google-cast-sdk (4.8.3):
     - Protobuf (~> 3.13)
-  - HexaPlayer (0.1.0):
+  - HexaPlayer (1.0.1):
     - google-cast-sdk (~> 4.8.3)
   - Protobuf (3.29.5)
 
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   google-cast-sdk: 1fb6724e94cc5ff23b359176e0cf6360586bb97a
-  HexaPlayer: 63dd9f0900e161706d415ca4e8602bfce4e8de2f
+  HexaPlayer: f74431bb72e8e7dc714ab73056d9235a33471964
   Protobuf: 164aea2ae380c3951abdc3e195220c01d17400e0
 
-PODFILE CHECKSUM: d78d20f2082bee1d9cfddc1d0eecc258b5fefc46
+PODFILE CHECKSUM: a51600331a940d375407c6fcd4098ed186f9e869
 
 COCOAPODS: 1.16.2
